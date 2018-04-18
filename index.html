@@ -1,0 +1,938 @@
+=<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SaveNet.com</title>
+<meta name="title" content= SaveNet | You only see what you want" />
+<meta name="description" content="" />
+<meta content="http://www.thepetedesign.com/demos/fly_sidemenu_demo.html" property="og:url" />
+<meta content="http://www.thepetedesign.com/images/fly_sidemenu_image.png" property="og:image" />
+<link rel="shortcut icon" id="favicon" href="favicon.png">
+<meta name="author" content="SaveNet">
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'> -->
+<link href='fly_sidemenu.css' rel='stylesheet' type='text/css'>
+<style>
+	
+@font-face {
+    font-family: 'univers';
+    src: url('../fonts/Univers-Extended.otf'); 
+}
+
+@font-face {
+    font-family: 'universextbold';
+    src: url('../fonts/Univers-BlackExt.otf'); 
+}
+
+@font-face {
+    font-family: 'univers';
+    src: url('../fonts/Univers-Extended.otf'); 
+}
+
+/*html {
+height: 100%;
+width: 80%;
+}*/
+body {
+background: #7bc1f2;
+padding: 0;
+text-align: center;
+font-family: 'open sans';
+position: relative;
+margin-right: 5%;
+height: 100%;
+overflow-x: hidden;
+}
+::-webkit-scrollbar
+{
+  width: 2px;  /* for vertical scrollbars */
+  height: 2px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: grey;
+}
+
+body {
+  padding: 0;
+  font-family: 'univers';
+}
+
+#divR{
+  float:right;
+  width:40%;
+  margin-top:2%;
+  margin-right: 5%;
+
+}
+#divL{
+  float:left;
+  width:40%;
+  margin-top:2%;
+  margin-left: 5%;
+
+}
+
+#sb1 {
+        width:45%;
+        height:400px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 40px #7bc1f2;
+        display:inline-block;
+        float:left;
+        margin-left: 5%;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        margin-bottom: 10%;
+      }
+      
+      p {
+        width:500px;
+        height:400px;
+      }
+#sb2 {
+        width:45%;
+        height:400px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 40px #7bc1f2;
+        display:inline-block;
+        float:right;
+        margin-right: -5% !important;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        margin-bottom: 10%;
+      }
+
+    /*AMBASSADORS*/
+      
+#sb3 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:left;
+        margin-top: 5%; 
+        margin-left: 5%;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+
+      }
+      p {
+        width:400px;
+        height:400px;
+      }
+#sb4 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:right;
+        margin-top: 5%; 
+        margin-right: -5% !important;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+      }
+#sb5 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:left;
+        margin-top: 5%; 
+        margin-left: 5%;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+      }
+#sb6 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:right;
+        margin-top: 5%; 
+        margin-right: -5% !important;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+      }
+#sb7 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:left;
+        margin-top: 5%; 
+        margin-left: 5%;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+      }
+#sb8 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:right;
+        margin-top: 5%; 
+        margin-right: -5% !important;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+      }
+#sb9 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:left;
+        margin-top: 5%; 
+        margin-left: 5%;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+      }
+#sb10 {
+        width:40%;
+        height:50%;
+        background-color: #7bc1f2;
+        display:inline-block;
+        float:right;
+        margin-top: 5%; 
+        margin-right: -5% !important;
+        word-wrap:break-word;
+        overflow-x:hidden;
+        overflow-y:scroll;
+        box-shadow: 0 0 40px grey;
+      }
+
+.paralelsectionA1{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 6%;
+height:100%;
+border-style: inset;
+border-color:10px;
+}
+.paralelsectionA2{
+margin-top:3%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 6%;
+height:50%;
+border-style: inset;
+border-color:5px;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+.paralelsectionA3{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 6%;
+height:300px;
+border-style: inset;
+border-color:10px;
+}
+
+
+
+.reference{
+  max-width: 70%;
+  font-size: 0.9vw;
+  text-align: left;
+  margin-left:2% !important;
+}
+
+.quote{
+    font-size:  1.1vw;
+    display: inline-block !important; 
+    max-width: 90%;
+    margin-left: 0.1%;
+    text-align: left;
+}
+
+#may{
+    margin-top:30em;
+    height: auto;
+
+}
+
+
+.portrait { 
+  position: fixed;
+  z-index: 20;
+  margin-left: -50%;
+  height: 10em;
+  margin-top: -2%; 
+  padding-left: 3%;
+}
+
+/*      END AMBASSADORS*/
+
+
+.paralelsection01{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 3%;
+padding-bottom: 3%;
+height:auto;
+border-style: inset;
+border-color:10px;
+text-align: left !important;
+
+}
+
+.paralelsection02{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 3%;
+padding-bottom: 3%;
+height:auto;
+border-style: groove;
+border-color:10px blue;
+text-align: left !important;
+}
+
+.paralelsection03{
+margin-top:2%;
+margin-left:3%;
+margin-right:2%;
+padding-left: 3%;
+padding-bottom: 3%;
+height:50%;
+border-style: inset;
+border-color:10px;
+text-align: left !important;
+}
+
+.paralelsection04{
+margin-top:2%;
+margin-left:3%;
+margin-right:2%;
+padding-left: 3%;
+padding-bottom: 3%;
+height:auto;
+border-style: inset;
+border-color:10px;
+text-align: left !important;
+}
+.paralelsection05{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 3%;
+padding-bottom: 3%;
+height:auto;
+border-style: inset;
+border-color:10px;
+}
+
+.paralelsection21{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 3%;
+height:300px;
+border-style: inset;
+border-color:10px;
+}
+
+.paralelsection22{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 3%;
+height:100px;
+border-style: inset;
+border-color:10px;
+}
+
+.paralelsection23{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 3%;
+height:100px;
+border-style: inset;
+border-color:10px;
+}
+
+.paralelsection24{
+margin-top:2%;
+margin-left:2%;
+margin-right:2%;
+padding-left: 3%;
+height:100px;
+border-style: inset;
+border-color:10px;
+}
+
+.sectionAmbass{
+/*  width: 100%;
+*/  margin-top: 30px;
+  padding-top: 4em;
+}
+      
+.wrapper {
+height: auto !important;
+height: 100%;
+margin: 0 auto;
+overflow: visible;
+
+margin-right: 10%;
+}
+a {
+text-decoration: none;
+}
+
+h1, h3, h4, h5, h6 {
+width: 100%;
+font-family: 'univers';
+text-align: left;
+}
+
+h1 {
+margin-top: 200px;
+color: #000;
+margin-bottom: 5px;
+font-size: 1em;
+letter-spacing: -4px;
+font-family: 'unviers';
+}
+h2 {
+letter-spacing: 2px;
+margin-top: 30px;
+color: #7bc1f2;
+font-weight: 100px;
+padding-top: 3%;
+font-family: 'universextbold';
+font-size: 2em;
+}
+h3 {
+font-size: 1em !important;
+letter-spacing: 2px;
+padding-top: 3%;
+color: #000;
+font-weight: 100px;
+margin-top: 6%;
+margin-bottom: 0px;
+font-family: 'universextbold';
+column-gap: 10% !important;
+/*column-count: 2;
+*/word-spacing: 2px;
+text-align: left !important;
+
+padding-left: 0%: 
+padding-right: 5%: 
+
+}
+h4 {
+letter-spacing: 2px;
+padding-top: 3%;
+padding-bottom: 0%;
+/*padding-left: 5%;*/
+padding-right: 10%;
+color: #000;
+font-weight: 100;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 5%;
+display: inline-flex;
+
+}
+
+
+h5{
+  text-align: left;
+}
+
+h6 {
+font-size: 1em !important;
+letter-spacing: 2px;
+/*padding-top: 3%;
+*/color: #000;
+font-weight: 100px;
+/*margin-top: 6%;
+margin-bottom: 0px;*/
+font-family: 'universextbold';
+/*column-gap: 10% !important;
+*/column-count: 2;
+word-spacing: 2px;
+text-align: left !important;
+    column-rule-style: solid;
+    -webkit-column-rule-width: 3%; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 3%; /* Firefox */
+    column-rule-width: 3%;
+    column-rule-color: #7bc1f2;
+    -webkit-column-gap: 15% !important; /* Chrome, Safari, Opera */
+    -moz-column-gap: 15% !important; /* Firefox */
+    column-gap: 7em !important;
+padding-right: 3%: 
+/*    column-span: all;*/
+
+
+
+}
+
+a {
+    color: grey;
+}
+
+.whysavenet{
+  text-align: left !important;
+  object-fit: contain;
+  display:inline-block;
+  width:90%;
+  height:auto;
+
+}
+
+.pointer {
+color: #00B0FF;
+font-family: 'Pacifico';
+font-size: 24px;
+margin-top: 15px;
+position: fixed;
+top: 62px;
+left: 25px;w
+}
+pre {
+margin: 80px auto;
+}
+pre code {
+/*padding: 35px;*/
+/*border-radius: 5px;*/
+font-size: 15px;
+background: rgba(0,0,0,0.1);
+border: rgba(0,0,0,0.05) 5px solid;
+/*max-width: 500px;*/
+}
+.main {
+ margin-left:auto;
+  margin-right:auto;
+}
+.main h1 {
+padding: 20px 50px 10px;
+float: left;
+width: 100%;
+font-size: 200px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+font-weight: 100;
+font-family: 'univers';
+margin: 0;
+padding-top: 25px;
+letter-spacing: -3px;
+}
+.main h1.demo1 {
+background: #1ABC9C;
+}
+.reload.bell {
+font-size: 12px;
+padding: 20px;
+width: 45px;
+text-align: center;
+height: 47px;
+border-radius: 50px;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+}
+.reload.bell #notification {
+font-size: 25px;
+line-height: 140%;
+}
+.reload, .btn {
+display: inline-block;
+border: 4px solid #A2261E;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background: #CC3126;
+display: inline-block;
+line-height: 100%;
+padding: 0.7em;
+text-decoration: none;
+color: #fff;
+width: 100px;
+line-height: 140%;
+font-size: 17px;
+font-family: open sans;
+font-weight: bold;
+}
+.reload:hover {
+background: #A2261E;
+}
+.btn {
+width: 200px;
+color: #fff;
+border: none;
+/*margin-left: 10px;
+*/background: #00B0FF;
+}
+.clear {
+/*width: auto;*/
+}
+.btn:hover, .btn:hover {
+background: #00CDFF;
+}
+.btns {
+/*width: 410px;*/
+margin: 50px auto;
+}
+.credit {
+background: #f6f6f6;
+text-align: center;
+color: #000;
+padding: 10px;
+margin: 0 0 40px 0;
+float: left;
+width: 100%;
+letter-spacing: 1px;
+}
+.credit a {
+color: #000;
+text-decoration: none;
+font-weight: bold;
+}
+.back {
+position: absolute;
+top: 0;
+left: 0;
+text-align: center;
+display: block;
+padding: 7px;
+width: 100%;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+background: #00B0FF;
+font-weight: bold;
+font-size: 13px;
+color: #fff;
+-webkit-transition: all 200ms ease-out;
+-moz-transition: all 200ms ease-out;
+-o-transition: all 200ms ease-out;
+transition: all 200ms ease-out;
+}
+.back:hover {
+background: #00CDFF;
+}
+.fsm-sidebar {
+position: fixed;
+}
+.fsm-button {
+height: 30px;
+width: 30px;
+/*font-size: 30px;*/
+color: #7bc1f2;
+top: 36px;
+line-height: 100%;
+}
+.page-container {
+/*max-width: 700px;*/
+margin: auto;
+}
+.page-container p {
+font-size: 21px;
+font-weight: 100;
+line-height: 180%;
+}
+§{
+font-family: "noto serif";
+font-size: 23px;
+}
+
+img{
+  margin-left: 10%;
+  width: 30%;
+  height: auto;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="wrapper">
+<div class="main">
+
+<video style="width:108%; padding-left: 1%; padding-right: 1%;" controls autoplay loop>
+  <source src="img/SaveNet.mp4" type="video/mp4">
+    <source src="img/SaveNet.ogg" type="video/ogg">
+</video>
+<div>
+
+
+<h2 style="padding-left: 7%;">About SaveNet</h2>
+<h6 style=" padding-left:5%;">SaveNet is a software company that focuses on the development of tools for secure online environment. Where technology can find a solution, we pursue it. We introduce new protections for minors, from images of pornography, violece and other age-inappropriatecontent on all platforms and devices. We work with a team of experts specialised in Data Use and an Ethics Commission to advise our regulators on the nature of data use and how best to prevent its abuse.<br>SaveNet Browsing extension is created to automatically detects terrorist and illegal religious videos, images, e-books and electronic documents. It identifies such content by matching the files’ digital signatures with those in our database. It blocks them, before they have been loaded.</h6>
+</div>
+
+<div style="width:auto;">
+<div id="divR">
+<h2 style="text-align: right !important; padding-right:5%;">Why SaveNet?</h2> 
+</div>
+<div id="divL">
+<h2 style="text-align: left !important; padding-left:5%; ">Services</h2> 
+</div>
+
+</div>
+
+<div style="margin-bottom: 5%;">
+<div id="sb1">
+    <div class="paralelsection01">
+    <h3>FRESH AND CLEAN</h3>	
+<h5>Automatic detection of harmful content.</h5>
+    </div>
+    <div class="paralelsection02">
+    <h3>AUTOMATIC UPDATES</h3>
+<h5>Recieve all the new features for free.</h5>
+    </div>
+     <div class="paralelsection03">
+    <h3>ALGORITHMIC PERSONALISATION</h3>
+<h5>We have developed a set of trustworthy agents, that will automatically take care of the process of personalisation instead of you.</h5>
+     </div> 
+    <div class="paralelsection04">
+    <h3>ETHICAL AND PROPORTIONATE<br>REGULATION OF DATA</h3>
+<h5>Objectivity of information essential to our democracy.</h5>
+    </div>
+     
+</div>
+
+<div id="sb2">
+    <div class="paralelsection01">
+    <h3>WE HAVE TO IN CERTAIN AREAS, CLOSE THAT INTERNET UP IN SOME WAY</h3>
+<h5 class="whysavenet"> We have to see Bill Gates and a lot of different people that really understand what's happening. We have to talk to them about, maybe in certain areas, closing that internet up in some ways. Somebody will say, 'Oh freedom of speech, freedom of speech.' These are foolish people.</h5>
+    </div>
+    <div class="paralelsection02">
+    <h3>THE SAFEST PLACE TO BE ONLINE</h3>
+<h5 class="whysavenet"> We cannot allow this ideology the safe space it needs to breed – yet that is precisely what the internet, and the big companies that provide internet-based services provide. We work with allied democratic governments to reach international agreements to regulate cyberspace to prevent the spread of extremist and terrorism planning.</h5>
+    </div>
+     <div class="paralelsection03">
+     <h3>BECAUSE YOU HAVE NOTHING TO HIDE</h3>
+     <h5 class="whysavenet"> The nothing to hide argument states that government surveillance programs do not threaten privacy unless they uncover illegal activities, and that if they do uncover illegal activities, the person committing these activities does not have the right to keep them private. Hence, a person who favors this argument may state "I've got nothing to hide" and therefore does not express opposition to government surveillance.</h5>
+    </div>
+</div>
+</div>
+<div style="margin-top:200px !important;">
+    <div style="width: 100%; margin-left: 5%;">
+    <h2 style="">Brand Ambassadors</h2>
+    <h6>SaveNet find strong support in the face of many democratic and not so democratic countries. Our commitment evolved from the urgency expressed by many officials for companies to develop technical tools to identify and remove terrorist propaganda and to prevent terrorist from having a safe space to communicate online. Furtehrmore a great responsibility has been placed upon us, that is to protect the vulnerable from the harms of the Internet and give people the confidence to use the internet without fear of abuse, criminality or exposure to horrific content.</h6>
+  </div>
+</div>
+<!-- AMBASSADORS -->
+<!-- Theresa May -->
+<div class="sectionAmbass">
+
+<img src="img/01.png"   alt="TheresaMay" />
+<h2>Theresa May</h2>
+<!-- <img  class="portrait" src="img/"> -->
+<div id="sb3">
+    <div class="paralelsectionA2">
+    <h5 class="quote">"The UK Government will work with the private and public sectors to ensure that individuals, businesses and organisations adopt the behaviours required to stay safe on the Internet. We will have measures in place to intervene (where necessary and within the scope of our powers) to drive improvements that are in the national interest, particularly in relation to the cyber security of our critical national infrastructure."</h5>
+    </div>
+    <div class="paralelsectionA2">
+    <h5 class="quote">"This is just the first part of work to develop a Digital Charter, which will provide a framework for how businesses and individuals should act online so everyone can benefit from new technologies."</h5>
+    </div>
+     <div class="paralelsectionA2">
+    <h5 class="quote">"We know that technical solutions, developed by industry, can help keep users safe online. We recognise the benefit of current parental control filters. Technologies, including linguistics filters and artificial intelligence, have the potential to make a considerable difference to the safety of online communities."</h5>
+    </div>
+      <div class="paralelsectionA2">
+    <h5 class="quote">"In harnessing the digital revolution we must take steps to protect the vulnerable and give people confidence to use the internet without fear of abuse, criminality or exposure to horrific content."</h5>
+    </div>
+</div>
+<div id="sb4">
+      <div class="paralelsectionA2">
+     <h5 class="reference"><h5 class="reference"> --> // National Cyber Security Strategy // 
+    <br>// 2016-11-01 // <br> // Cabinet Office, National security and intelligence, HM Treasury, and The Rt Hon Philip Hammond MP // <br>// <a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/567242/national_cyber_security_strategy_2016.pdf">open document</a></h5></a>
+</h5>   
+      </div>
+      <div class="paralelsectionA2">
+    <h5 class="reference"> --> // Internet Safety Strategy – Green paper // 
+    <br>// 2017-10-01 // <br> // Written by The Conservative And Unionist Party Manifesto // <br>// <a href="https://www.conservatives.com/manifesto">open document</a>
+</h5>     
+     </div>
+       <div class="paralelsectionA2">
+    <h5 class="reference"> --> // Internet Safety Strategy – Green paper // 
+    <br>// 2017-10-01 // <br> // Written by The Conservative And Unionist Party Manifesto // <br>// <a href="https://www.conservatives.com/manifesto">open document</a>
+</h5>     
+     </div>
+       <div class="paralelsectionA2">
+    <h5 class="reference"> --> // Forward, Together Our Plan For A Stronger Britain And A Prosperous Future // 
+    <br>// 2017-05-19 // <br> // Written by The Conservative And Unionist Party Manifesto // <br>// <a href="https://www.conservatives.com/manifesto">open document</a></h5>
+      </div>
+</div>
+</div>
+
+<!-- Vladimir Putin -->
+<div class="sectionAmbass">
+<img  src="img/02.png"  alt="VladimirPutin" />
+<h2 style="padding-top: 2% !important;">Vladimir Putin</h2>
+<!-- <img  class="portrait" src="img/"> -->
+<div id="sb5">
+    <div class="paralelsectionA2">
+    <h5 class="quote">"In the present Doctrine, on the basis of an analysis of the main information threats and assessing the state of information security, strategic goals and basic directions of ensuring information security are determined, taking into account the strategic national priorities of the Russian Federation."</h5>  
+    </div>
+    <div class="paralelsectionA2">
+    <h5 class="quote">"The order of identification of information resources in order to take measures to restrict access to information resources, requirements for methods of limiting such access, applied in accordance with Federal Law as well as the requirements for the placed information on the restriction of access are determined by the federal executive body carrying out functions of control and supervision in the sphere of mass media, mass communications, information technologies and communications."
+</h5>
+    </div>
+    <div class="paralelsectionA2">
+    <h5 class="quote"> In the present Doctrine, on the basis of an analysis of the main information threats and assessing the state of information security, strategic goals and basic directions of ensuring information security are determined, taking into account the strategic national priorities of the Russian Federation."</h5>
+    </div>
+     <div class="paralelsectionA2">
+    <h5 class="quote">"The product provides a user interface for its administering, for managing the loaded data and also for transferring requests and accessing the search results on the side of the telecom operator."</h5>
+    </div>
+    <div class="paralelsectionA2">
+    <h5 class="quote">"The main principles of this Strategy are  the priority of traditional Russian spiritual and moral values and observance of norms of behavior based on these values when using information and communication technologies;  ensuring state protection of the interests of Russian citizens in the information sphere.   "</h5>
+    </div>
+</div>
+<div id="sb6">
+      <div class="paralelsectionA2">
+    <h5 class="reference">--> // Doctrine (Доктрина) of  information security of Russian Federation // 
+    <br>// 2016-12-05 // <br> // Approved by the President Of the Russian Federation от 5 december 2016 г. №646 // <br>// <a href="https://rg.ru/2016/12/06/doktrina-infobezobasnost-site-dok.html">open document</a>//</h5>
+    </div>
+      <div class="paralelsectionA2">
+       <h5 class="reference">--> // Federal Law No. 276-FZ "On Amendments to the Federal Law" On Information, Information Technologies and Information Protection "  // <br>// issued on 2012-07-30 // <br> //updated on 2017-07-29 // <br> // <a href="http://publication.pravo.gov.ru/Document/View/0001201707300002?index=0&rangeSize=1">open document</a>//</h5>
+    </div>
+     <div class="paralelsectionA2">
+       <h5 class="reference">--> // Strategy of Information Society Development in the Russian Federation for the period from 2017 to 2030 // Decree of the President of the Russian Federation No. 203 // 2017-05-09 // Moscow, Kremlin // <a href=" http://static.kremlin.ru/media/acts/files/0001201705100002.pdf">open document</a>//</h5>
+    </div>
+    <div class="paralelsectionA2">
+       <h5 class="reference">--> // DATA RETENTION SYSTEM // PRODUCT DESCRIPTION 11150642.3222106.00305.PP.01.5.M // © CJSC PETER-SERVICE, 2007-2009  // <a href="https://wikileaks.org/spyfiles/russia/document/DRS-COMMON-DOC_DRS-DOC-PP_ENU-5_1/page-1/#pagination">open document</a>//</h5>
+    </div>
+     <div class="paralelsectionA2">
+       <h5 class="reference">--> // Strategy of Information Society Development in the Russian Federation for the period from 2017 to 2030 // 2017-05-09 written by  The President of the Russian Federation // Moscow, Kremlin //<a href="">open document</a>//</h5>
+    </div>
+      </div>
+</div>
+<!-- Donald Trump -->
+<div class="sectionAmbass">
+  <img  src="img/03.png"  alt="Donald Trump" />
+<h2>Donald Trump</h2>
+<!-- <img  class="portrait" src="img/"> -->
+<div id="sb7">
+    <div class="paralelsectionA1">
+     <h3>alt="portraitPhoto"</h3> 
+      <p></p>
+    </div>
+    <div class="paralelsectionA2">
+    <h5>"Loser terrorists must be dealt with in a much tougher manner.The internet is their main recruitment tool which we must cut off and use better!"</h5>
+    </div>
+    <div class="paralelsectionA3">
+    <p>"more quotes"</p>
+      <p></p>
+    </div>
+</div>
+<div id="sb8">
+      <div class="paralelsectionA1">
+     <h3 class="reference">biography?</h3>
+      <p></p>
+      </div>
+      <div class="paralelsectionA2">
+    <p class="reference">--> // pressconference //<br>// date //<br>// reason //<br>// watch video // </p>
+      <p></p>
+      </div>
+      <div class="paralelsectionA3">
+    <p class="reference">text retrieved from:<br>more references"</p>
+      <p></p>
+      </div>
+</div>
+</div>
+<!-- Xi Jumping -->
+<div class="sectionAmbass">
+      <img  src="img/04.png" alt="Xi Jinping" />
+
+<h2 style="padding-top: 2%; !important;">Xi Jinping</h2>
+<!-- <img  class="portrait" src="img/mayOval.png">
+ --><div id="sb9">
+    <div class="paralelsectionA1">
+         <h3>alt="portraitPhoto"</h3> 
+    </div>
+    <div class="paralelsectionA2">
+    <h3>"big brother app"</h3> 
+    </div>
+    <div class="paralelsectionA3">
+    <h3>"morequotes"</h3>
+      <h5>bla bla bla </h5>
+    </div>
+    </div>
+<div id="sb10">
+      <div class="paralelsectionA1">
+     <h3 class="reference">biography?</h3>
+      <h5></h5>
+      </div>
+      <div class="paralelsectionA2">
+    <h5 class="reference">--> // Notice of Chongqing Municipal Public Security Bureau on Printing and Distributing "Discretionary Benchmarks for Administrative Punishment in Network Security Management of Chongqing Public Security Organs" //<br>// 2017-03-17 //<br>// City Public Security Bureau // </h5>
+      <h5></h5>
+      </div>
+      <div class="paralelsectionA3">
+ <h5 class="reference">--> // Notice of Chongqing Municipal Public Security Bureau on Printing and Distributing "Discretionary Benchmarks for Administrative Punishment in Network Security Management of Chongqing Public Security Organs" //<br>// 2017-03-17 //<br>// City Public Security Bureau // </h5>      
+      </div>
+      </div>
+
+</div>
+<!-- END AMBASSADORS -->
+
+
+</div>
+<ul class="sidemenu" style="height:2000px;">
+<h3 style="padding-left:27% !important; width:45% !important; color:#7bc1f2 !important; display: inline-block; font-size: 16px; position:relative;">The structure of the internet is one that undermines previously established power structures.<a href="https://www.eff.org/cyberspace-independence">People have created a new home of Mind and there are those that try to re-build it, as though it were a public construction project. It is an act of nature and it grows itself through our collective actions.</a><br> 
+The starting point of the research was the recent VPN ban in Russia, which is an insult to privacy and freedom of speech.During our process, we came across many alarming documents issued by officials around the world, regarding the regulation of Cyber space. It seems like a common rhetorical strategy to point out explicit content as a reason for censorship. <br>
+SaveNet cites federal laws, acts, bills, decrees, strategies, manifestos, press releases etcetera, with the intention of mimicking reality and speculating" about an existing future. The "" marks appear as the proof of the recent crimes committed against humanity. The browsing extension is entirely constructed out of facts.</h3>
+<p style="font-size: 12px; padding-left:27% !important; height: auto;">This project is a collaboration between Amnesty International and KABK Graphic Design department for the 50th anniversary of <a href="https://www.amnesty.nl/">Amnesty International</a>.<br>Special thanks to our mentors <br> Niels Schrader / Lauren Alexander / Vit Ruller/ Maarten Beckers<br>Project by Roslana Yotova and Sophia de Jong</p>
+<img src="img/KABK.png" style="width: 12%; height:auto; padding-left: 27%; padding-top: -100%;">
+<img src="img/AMNESTY.jpg" style="width: 12%; height:auto;">
+</ul>
+<!-- </div>
+ --></div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.fly_sidemenu.js"></script>
+<script>
+	  $(document).ready( function() {
+	    $(".sidemenu").fly_sidemenu();
+	  });
+		
+	</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
